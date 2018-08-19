@@ -1,0 +1,26 @@
+<html>
+ <head>
+  <title>The Problem with Pixels - A Solution to Unreadable Pixel-Measured Fonts on the Web - Correcting Designers' Problems on the Client Side</title>
+  <link rel="stylesheet" type="text/css" href="../ip.css">
+  <meta name="description" content="The problem with pixels: A solution to unreadable pixel-measured fonts on the web. Correcting designers' shortsightedness on the cient side.">
+  <meta name="keywords" content="problem, pixel, font, font-size, px, style, sheet, css, html, abuse, Michael Dayah">
+ </head>
+ <body>
+
+  <h1>The Problem with Pixels</h1>
+  <h2>A Solution to Unreadable Pixel-Measured Fonts on the Web</h2>
+  <h2>Correcting Designers' Shortsightedness on the Client Side</h2>
+
+  <p>Do you find yourself squinting to read bestbuy.com, netscape.com, go.com, hotmail.com, zdnet.com, or even Zeldman’s alistapart.com? It could be because their developers decided to set font sizes with a nonstandard unit, pixels.</p>
+  <p>In a perfect world, the operating system knows the exact number of pixels per inch for your display based on its physical size and resolution. In the Windows control panel’s display applet, this is set by dragging a displayed ruler to coincide with a physical ruler placed against the screen. The interface is then scaled to display at physical measurements rather than a certain number of pixels. Almost everyone using a given operating system has their scaling set to the same, likely incorrect default value, making the problems caused by setting font sizes in pixels invisible to the masses, for now.</p>
+  <p>As HTML has enhanced over the years, designers and developers have naturally gained more control over the presentation of content. This is safest from a usability standpoint when offset by an equivalent increase in control on the part of the user. For example, developers can control the size of text in a document through the deprecated FONT element. This element can select a relative size of text based on a median value determined by the user’s operating system, which takes into account the dpi of the display. Equivalently, users can alter the relative size of text with their browser’s font size setting (View | Text Size in Internet Explorer, View | Increase/Decrease font in Navigator).</p>
+  <p>One of the most interesting features of style sheets is the ability to control font sizes with pixel measurements. Pixel-based font sizes have very few redeeming qualities. The primary use of pixel font measurements today is to encourage lazy design. I have even succumbed to the temptation a few times to save effort. Why bother making a page reflow based on varying font sizes when one will know that all text will line up, or text won’t flow past a certain boundary or beyond an image? There may be occasions where pixel font measurements are a better choice, but from a usability standpoint, I have encountered none. If you are looking to control every pixel of your web document, perhaps the web is not your medium.</p>
+  <p>HTML and style sheet abuse is rampant; why the big fuss over pixel fonts? Pixel fonts represent a huge threat to usability because there is no comparable power afforded to users to offset the designer's control over layout. If someone with a high dpi display comes across one of the thousands of web sites that use a 12-pixel font rather than a relative font size, the document will be virtually or perhaps totally unreadable. There is nothing the user can do short of copying the page into a text editor. When text is too small, most of us reach for our browser’s relative font size setting. This setting does not affect pixel or point measurements.</p>
+  <p>Short of waiting for a huge backlash when high dpi displays are commonplace, one solution would be an option to make all font sizes of any unit controllable by the browser's font scaling setting (implemented by Mozilla). Even better would be for browser developers to give users the option to convert pixel measurements to point measurements, which are effectively pixel measurements corrected for display dpi.</p>
+  <p>With the widespread implementation of font-level style sheets, there now exists a huge gradient between the level of control afforded designers and users. It is up to browser developers to bridge this gap before the threat to usability becomes a major issue.</p>
+
+  <div class="back"><a href="./">Back to Michael Dayah's Essays</a></div>
+  <div class="byline"><a href="mailto:michael@dayah.com">Michael Dayah</a><br>April 7, 2001</div>
+
+ </body>
+</html>
