@@ -1,0 +1,45 @@
+BODY {
+	margin: 1cm 2cm;
+}
+H1 {
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	letter-spacing: -0.08em;
+	text-align: center;
+}
+H2 {
+	font-size: small;
+	font-weight: lighter;
+	letter-spacing: 0.15em;
+	text-align: center;
+}
+P {
+/*	text-indent: 3ex;*/
+	line-height: 1.2em;
+	text-align: justify;
+}
+DT {
+	margin-top: 1em;
+	font-family: sans-serif;
+}
+DT A {
+	font-family: Verdana, sans-serif;
+	font-size: large;
+	letter-spacing: -0.08em;
+}
+.back {
+	float: left;
+}
+.byline {
+	font-style: italic;
+	float: right;
+}
+.date {
+	margin-left: 2em;
+	float: right;
+}
+.copyright {
+	font-size: x-small;
+	position: absolute;
+	bottom: 1em;
+}
