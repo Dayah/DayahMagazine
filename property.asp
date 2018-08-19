@@ -24,7 +24,26 @@
 
   <div class="H3Holder" id="Essay">
    <h3><span><a name="essay">Essays</a></span></h3>
-   <p>My <a href="http://www.livejournal.com/community/essays">essays are now kept at LiveJournal</a>, an online diary site, because of its <a href="http://www.livejournal.com/community/essays/rss" title="RSS feed">built in syndication</a> and threaded message boards attached to each entry. Commentary, discussion, and challenges are all welcome.</p>
+   <p>Occasionally an interesting idea will blindside me on the way home from a movie and I'll write it down. If I believe a similar insight has already been documented, I won't even bother. The first is most prolific, having been on <a href="http://slashdot.org/science/00/03/28/0810229.shtml">Slashdot (28 Mar 2000)</a> as "a great essay" and <a href="http://www.crank.net/et.html">Crank Dot Net (17 Jun 2001)</a> as "fringe." I haven't decided which is the better description. The third was more of a formal plea for a browser feature and is based on accepted design conventions.</p>
+   <dl>
+    <dt><a href="essay/ageofcuriosity.html">The Age of Curiosity</a><span class="Date">March 26, 2000</span></dt>
+     <dd>Why the Sky Isn't Saturated with Radio Signals</dd>
+     <dd>A Proposed Update to the Drake Equation</dd>
+    <dt><a href="essay/selfaware.html">Humans Are Not Self-Aware</a><span class="Date">October 17, 2000</span></dt>
+     <dd>The Possibility of Higher Levels of Sentience</dd>
+     <dd>An Alternate Perspective on Human Awareness</dd>
+    <dt><a href="essay/pixels.html">The Problem with Pixels</a><span class="Date">April 7, 2001</span></dt>
+     <dd>A Solution to Unreadable Pixel-Measured Fonts on the Web</dd>
+     <dd>Correcting Designers' Shortsightedness on the Client Side</dd>
+    <dt><a href="essay/predictions.html">The Next Thousand Years</a><span class="Date">July 4, 2001</span></dt>
+     <dd>Trends in Technological Development</dd>
+     <dd>Warning: First Draft</dd>
+
+    <dt><a href="essay/coincidence.html">It Was Just a Coincidence</a><span class="Date">May 6, 2002</span></dt>
+     <dd>Why Many Abandon Science for Pseudoscience</dd>
+     <dd>Warning: First Draft</dd>
+
+   </dl>
   </div>
 
   <div class="H3Holder">
