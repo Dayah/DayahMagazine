@@ -94,8 +94,8 @@ DT {
 .SwapImage {
 	display: none;
 	position: absolute;
-	left: 40%;
-	border: thin solid black;
+	top: 10em;
+	right: 1em;
 	z-index: 3;
 }
 
